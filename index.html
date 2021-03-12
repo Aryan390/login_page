@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Document</title>
+  <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/cebedaac72.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="errorBox error" style="display: none;">
+    <h2>Please Enter all the mentioned Fields</h2>
+  </div>
+  <div class="passError error" style="display: none;">
+    <h2>The length of the password must atleast be 8 characters</h2>
+  </div>
+  <i class="fas fa-users user"></i>
+  <div class="container">
+      <form id="form">
+          <div class="input-container">
+            <i class="fas fa-user-shield pic"></i>
+            <input type="text" class="field" placeholder="Username" id="username">
+          </div>
+          <div class="input-container">
+            <i class="fas fa-lock pic"></i>
+            <input type="password" class="field" placeholder="Password" id="password">
+          </div>
+        <input type="submit" class="btn" value="LOGIN">
+      </form>
+      <a href="#" id="link">Forgot Password?</a>
+    <div class="icon">
+      <a href="#"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+        | Sign In With Google</a>
+    </div>
+    <div class="icon">
+      <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-circled.png"/> | Sign In With Facebook</a>
+    </div>
+  </div>
+</body>
+</html>
